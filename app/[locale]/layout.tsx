@@ -25,11 +25,13 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
   const messages = await getMessages({ locale });
 
+  const typedLocale = locale as Locale;
+
   return (
-    <NextIntlClientProvider locale={locale} messages={messages}>
-      <Navbar locale={locale} />
+    <NextIntlClientProvider locale={typedLocale} messages={messages}>
+      <Navbar locale={typedLocale} />
       <main className="mx-auto max-w-6xl px-4 md:px-6">{children}</main>
-      <Footer locale={locale} />
+      <Footer locale={typedLocale} />
     </NextIntlClientProvider>
   );
 }
