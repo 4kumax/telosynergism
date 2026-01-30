@@ -1,0 +1,637 @@
+{
+  "nav": {
+    "home": "Home",
+    "twoMin": "Understand in 2 minutes",
+    "manifest": "Manifesto",
+    "model": "4 contours",
+    "metrics": "SVI & IT",
+    "practice": "Protocols",
+    "applications": "Applications",
+    "faq": "FAQ",
+    "menuCta": "Quick"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "footer": {
+    "title": "Telosynergism",
+    "subtitle": "Public prototype: theory, practice, and demo metrics.",
+    "links": {
+      "manifest": "Manifesto",
+      "metrics": "SVI & IT",
+      "practice": "Protocols",
+      "applications": "Applications"
+    },
+    "disclaimer": "Metrics and simulators are demo prototypes, not psychological diagnostics and not medical advice.",
+    "copyright": "© 2026 Telosynergism. All rights reserved."
+  },
+  "metadata": {
+    "home": {
+      "title": "Telosynergism — vector, not chaos",
+      "description": "Manifesto, protocols, and demo SVI/IT metrics for observable resonance."
+    },
+    "twoMin": {
+      "title": "Telosynergism in 2 minutes",
+      "description": "A minimal backbone: definitions, model, observability, what to do next."
+    },
+    "manifest": {
+      "title": "The Telosynergism Manifesto",
+      "description": "Principles, boundaries, and ethics of telosynergism."
+    },
+    "model": {
+      "title": "4 contours and resonance",
+      "description": "The contour model, patterns, and the resonance simulator."
+    },
+    "metrics": {
+      "title": "SVI & IT — demo metrics",
+      "description": "SVI test, IT vs Volume, and an observability approach."
+    },
+    "practice": {
+      "title": "Protocols and trajectories",
+      "description": "Practical protocols A/B/C and a trajectory simulator."
+    },
+    "applications": {
+      "title": "Telosynergism applications",
+      "description": "Templates for individuals, teams, products, education, and cities."
+    },
+    "faq": {
+      "title": "FAQ and glossary",
+      "description": "Key answers and core terminology."
+    }
+  },
+  "home": {
+    "eyebrow": "Public prototype",
+    "title": "Vector, not chaos",
+    "subtitle": "Telosynergism is a meaning framework that connects human energy, social trust, technological noise, and nature’s sustainability.",
+    "cta": {
+      "primary": "Understand in 2 minutes",
+      "svi": "SVI test",
+      "simulator": "Resonance simulator"
+    },
+    "heroCard": {
+      "title": "What we do",
+      "body": "We define 4 contours and observe their coherence via SVI/IT. We provide protocols for restoring resonance and reducing entropy.",
+      "callout": "This is a demo intended for navigation and collaborative design."
+    },
+    "problems": [
+      {
+        "title": "Decision entropy",
+        "description": "More activity does not guarantee direction: KPIs rise while meaning fades."
+      },
+      {
+        "title": "Contour gaps",
+        "description": "Energy, trust, noise, and sustainability drift apart—resonance breaks."
+      },
+      {
+        "title": "Technological noise",
+        "description": "Excess complexity and opacity undermine coherence."
+      }
+    ],
+    "contoursEyebrow": "Model",
+    "contoursTitle": "4 contours of resonance",
+    "contoursCta": "Explore the model",
+    "contours": {
+      "E": {
+        "title": "E — human energy",
+        "description": "Capacity of attention, meaning, and motivation."
+      },
+      "D": {
+        "title": "D — social trust",
+        "description": "Quality of ties, transparency, and fairness."
+      },
+      "S": {
+        "title": "S — technological noise",
+        "description": "Complexity, signal chaos, digital overload."
+      },
+      "N": {
+        "title": "N — nature sustainability",
+        "description": "Ecological and resource sustainability of decisions."
+      }
+    },
+    "meaning": {
+      "title": "Meaning = infrastructure",
+      "body": "We treat meaning as system infrastructure, not an abstract slogan. Meaning sets the vector; protocols sustain movement."
+    },
+    "svi": {
+      "title": "SVI & IT",
+      "body": "SVI is a seven-component stability profile. IT is an index of coherence and resonance. Together they form an observable compass.",
+      "cta": "About the metrics"
+    },
+    "applications": {
+      "title": "Where it applies",
+      "items": {
+        "1": "Personal stability",
+        "2": "Team rhythms",
+        "3": "Product direction",
+        "4": "Education systems",
+        "5": "City synchronization"
+      },
+      "cta": "View domains"
+    },
+    "manifestMini": {
+      "title": "Mini-manifesto",
+      "lines": "We choose direction, not only speed.\nWe measure coherence, not only volume.\nWe design resonance, not just growth.\nWe reduce noise to hear meaning.\nWe work with systems, not fragments.\nWe keep ethics and transparency.\nWe make complexity accessible.\nWe build meaning infrastructure."
+    },
+    "roadmap": {
+      "title": "Roadmap",
+      "items": [
+        {
+          "title": "Stage 0 — Prototype",
+          "description": "Test language and metrics in the open."
+        },
+        {
+          "title": "Stage 1 — Library",
+          "description": "Collect protocols, cases, and tools."
+        },
+        {
+          "title": "Stage 2 — Community",
+          "description": "Build a network of practitioners and partnerships."
+        },
+        {
+          "title": "Stage 3 — Application",
+          "description": "Field pilots in cities and organizations."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Join / partnerships",
+      "body": "Open to research, pilots, and co-development.",
+      "button": "Contact us",
+      "dialogTitle": "Get in touch",
+      "dialogBody": "Tell us about your project or challenge—we’ll propose a collaboration format."
+    }
+  },
+  "twoMin": {
+    "eyebrow": "Short handbook",
+    "title": "Telosynergism Catechism",
+    "subtitle": "A short handbook of the meaning-vector civilization: definitions, principles, differences, and how to start practicing.",
+    "blocks": [
+      {
+        "title": "1. What is Telosynergism?",
+        "body": "Telosynergism is a direction-centered ideology of meaning. It teaches you to live so that your actions amplify your telos—your inner meaning vector—and resonate with people, technology, and nature. The world is stronger when its parts move in the same meaning direction."
+      },
+      {
+        "title": "2. What is telos?",
+        "body": "Telos is your highest purpose—your meaning vector. Not a wish, not a dream, not a mood, but a direction you are meant to grow into. Telos exists for a person, a family, a city, a country, and humanity."
+      },
+      {
+        "title": "3. What is synergy?",
+        "body": "Synergy is when 1+1 > 2. In Telosynergism it means: when people, society, technology, and nature move in one direction, their forces multiply."
+      },
+      {
+        "title": "4. What is the core idea?",
+        "body": "The core idea is that meaning is infrastructure—like roads, electricity, or the internet. Meaning can be directed, amplified, measured, and used to build systems around it."
+      },
+      {
+        "title": "5. How is it different from socialism and capitalism?",
+        "body": "Socialism: the goal is equality, the center is public ownership. Capitalism: the goal is profit, the center is private ownership. Telosynergism: the goal is amplification of the meaning vector, the center is meaning as a public good."
+      },
+      {
+        "title": "6. Why does a person need telos?",
+        "body": "Without telos a person sinks into chaos, loses energy, walks in circles, becomes dependent on external forces, and is easy to manipulate. With telos, a person holds direction, keeps focus, grows rather than drifts, creates value, and lives consciously."
+      },
+      {
+        "title": "7. How do you find your telos?",
+        "body": "Telos appears where three circles intersect: strength (what you can truly do), passion (what energizes you), and the world’s need (what people/nature/society genuinely require)."
+      },
+      {
+        "title": "8. What is a meaning vector?",
+        "body": "It is the direction of your development, behavior, decisions, and capabilities. A vector can be measured: where you are actually going, not where you say you want to go."
+      },
+      {
+        "title": "9. What destroys telos?",
+        "body": "Three forces: meaning entropy (noise, chaos, meaninglessness), the vector gap (your lifestyle contradicts your highest purpose), and external noise (toxic technologies, manipulation, dependency)."
+      },
+      {
+        "title": "10. What strengthens telos?",
+        "body": "Three supports: focus (holding direction), practice (daily actions that amplify the vector), and environment (a context that supports your telos)."
+      },
+      {
+        "title": "11. What is the resonance of four contours?",
+        "body": "Civilization consists of four contours: human, society, technology, nature. When their vectors align, the world strengthens. When they fragment, chaos follows."
+      },
+      {
+        "title": "12. What does Telosynergism require from the state?",
+        "body": "The state should be an architect of direction: align vectors of people, technology, and nature, protect them from разрушение, and design the future on a 50–100 year horizon."
+      },
+      {
+        "title": "13. What does it require from technology?",
+        "body": "Technology must serve telos, not destroy it. Addictive algorithms and manipulation systems are unacceptable. Supported: telos-oriented AI assistants, health/education/development systems, and technologies that amplify the human."
+      },
+      {
+        "title": "14. What is the Telos-Synergy Index (IT)?",
+        "body": "IT is the main indicator of directionality. It shows whether contour vectors align, whether they amplify each other, where a system is going, what is breaking, and what is growing. In the future, countries will compete by IT the way they compete by GDP today."
+      },
+      {
+        "title": "15. What does Telosynergism require from the individual?",
+        "body": "Three commitments: awareness (know your vector and control attention), creativeness (act to amplify your future), and contour responsibility (consider people, technology, and nature)."
+      },
+      {
+        "title": "16. Who is a Telosynergism person?",
+        "body": "Not a consumer. Not a cog. Not a crowd unit. A carrier of a meaning vector that leads through chaos into the future."
+      },
+      {
+        "title": "17. The ultimate goal",
+        "body": "To build a civilization where meaning is the foundation; the human is unfolded; technology amplifies; nature regenerates; the future attracts rather than frightens."
+      },
+      {
+        "title": "18. How to start right now",
+        "body": "1) Define your telos. 2) Drop actions that pull you away. 3) Create daily meaning-amplifying practices. 4) Build a resonant environment. 5) Influence softly—by example. 6) Don’t quit: telos grows through practice."
+      },
+      {
+        "title": "19. “Vector, not chaos”",
+        "body": "The key principle: live not by reactions. Live by direction."
+      },
+      {
+        "title": "20. Telos in one sentence",
+        "body": "Telos is what you become yourself for."
+      }
+    ],
+    "closing": "If you want to move from meaning to observability: start with the SVI test, then open the resonance simulator."
+  },
+  "manifest": {
+    "title": "The Telosynergism Manifesto",
+    "subtitle": "We build a system where meaning, observability, and ethics are connected.",
+    "principles": {
+      "title": "Principles",
+      "items": [
+        "Meaning sets the vector; metrics support movement.",
+        "Resonance matters more than chaotic growth.",
+        "Noise reduction is a foundational practice.",
+        "The system matters more than local wins.",
+        "Ethics and transparency are mandatory."
+      ]
+    },
+    "not": {
+      "title": "What this is not",
+      "items": [
+        "Not psychological diagnostics.",
+        "Not a religion or an exclusion ideology.",
+        "Not a control instrument.",
+        "Not anti-technology—rather, working with its noise."
+      ]
+    },
+    "ethics": {
+      "title": "Ethics",
+      "items": [
+        "Voluntary participation.",
+        "Transparency of formulas and decisions.",
+        "Safety of data and people.",
+        "Accountability for consequences."
+      ]
+    }
+  },
+  "model": {
+    "title": "The 4 contours of Telosynergism",
+    "subtitle": "Contours are measurable fields that must be coherent.",
+    "contours": {
+      "E": {
+        "title": "E — human energy",
+        "body": "Focus, motivation, capacity to hold meaning."
+      },
+      "D": {
+        "title": "D — social trust",
+        "body": "Transparency, reliability of relationships and institutions."
+      },
+      "S": {
+        "title": "S — technological noise",
+        "body": "Excess signals, tool chaos, overload."
+      },
+      "N": {
+        "title": "N — nature sustainability",
+        "body": "Ecological and long-term resource sustainability."
+      }
+    },
+    "patterns": {
+      "title": "Resonance patterns",
+      "items": [
+        "Contour balance.",
+        "Noise minimization during growth.",
+        "Co-decision making.",
+        "Conscious pace."
+      ]
+    },
+    "antipatterns": {
+      "title": "Anti-patterns",
+      "items": [
+        "Growth at the cost of burnout.",
+        "Technology without trust.",
+        "Ecological debt for KPI.",
+        "Fragmented initiatives."
+      ]
+    },
+    "simulator": {
+      "title": "Resonance Simulator",
+      "subtitle": "Check coherence across the four contours.",
+      "badge": "Demo",
+      "labels": {
+        "E": "E — energy",
+        "D": "D — trust",
+        "S": "S — noise",
+        "N": "N — nature"
+      },
+      "hint": "Sliders update the resonance profile in real time.",
+      "itTitle": "IT_demo",
+      "radarTitle": "Resonance radar",
+      "axes": {
+        "E": "Energy",
+        "D": "Trust",
+        "N": "Nature",
+        "S": "Noise (inverted)"
+      },
+      "categories": {
+        "low": "Low",
+        "mid": "Medium",
+        "high": "High"
+      },
+      "hints": {
+        "noise": "High noise reduces coherence.",
+        "E": "Low energy is a breaking point.",
+        "D": "Low trust is a breaking point.",
+        "N": "Low sustainability is a breaking point.",
+        "default": "Keep the contours balanced."
+      },
+      "tooltip": {
+        "label": "How is it computed?",
+        "body": "IT_demo = 0.5*alignment + 0.3*synergy - 0.2*entropy"
+      }
+    }
+  },
+  "metrics": {
+    "title": "SVI & IT",
+    "subtitle": "Demo metrics for observable resonance.",
+    "svi": {
+      "title": "SVI profile",
+      "items": [
+        "7 stability components.",
+        "Likert survey for a quick profile.",
+        "Two breaking points show the weakest link."
+      ]
+    },
+    "it": {
+      "title": "IT index",
+      "items": [
+        "Contour coherence.",
+        "Synergy at the minimum level.",
+        "Noise reduces the final index."
+      ]
+    },
+    "sviTestTitle": "SVI test in 90 seconds",
+    "sviTestSubtitle": "Rate 7 statements—get a profile and recommendations.",
+    "itVsVolumeTitle": "IT vs Volume",
+    "itVsVolumeSubtitle": "Compare activity volume and directionality.",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimer": "Results are exploratory and meant for navigation.",
+    "sviTest": {
+      "title": "SVI test",
+      "resultTitle": "SVI profile",
+      "gaps": "Breaking points",
+      "nextStep": "Next step",
+      "nextSteps": {
+        "A": "Protocol A",
+        "B": "Protocol B",
+        "C": "Protocol C"
+      },
+      "disclaimerTitle": "Disclaimer",
+      "disclaimer": "SVI is a demo tool, not psychological diagnostics.",
+      "axes": {
+        "T": "Trajectory",
+        "A": "Agency",
+        "E": "Energy",
+        "R": "Relatedness",
+        "N": "Nature",
+        "S": "Noise",
+        "H": "Horizon"
+      },
+      "questions": {
+        "T": "I understand the direction and can explain it to others.",
+        "A": "I can influence decisions and practices.",
+        "E": "I have a stable resource of energy and attention.",
+        "R": "There is trust and connectedness between participants.",
+        "N": "Decisions consider ecological sustainability.",
+        "S": "The tech environment is clear and not overloaded.",
+        "H": "We plan beyond the next quarter."
+      },
+      "scale": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      }
+    },
+    "itVsVolume": {
+      "title": "IT vs Volume",
+      "tabs": {
+        "person": "Individual",
+        "team": "Team",
+        "city": "City"
+      },
+      "presetLabel": "Preset",
+      "volume": "Volume",
+      "it": "IT",
+      "volumeHint": "Activity intensity",
+      "itHint": "Directional coherence",
+      "presets": {
+        "person": {
+          "focus": "Focus and stability",
+          "burnout": "Burnout",
+          "harmonized": "Harmonized mode"
+        },
+        "team": {
+          "rush": "Sprint at any cost",
+          "alignment": "Alignment",
+          "stuck": "Stuckness",
+          "resonant": "Resonant team"
+        },
+        "city": {
+          "expansion": "Expansion",
+          "balanced": "Balanced growth",
+          "fragmented": "Fragmentation",
+          "recovery": "Recovery"
+        }
+      },
+      "interpretations": {
+        "person": "Personal volume can rise, but without direction IT falls.",
+        "team": "A team becomes stable only when contours are synchronized.",
+        "city": "City scale requires noise reduction—otherwise coordination breaks."
+      }
+    }
+  },
+  "practice": {
+    "title": "Telosynergism protocols",
+    "subtitle": "Three practical modes that restore resonance.",
+    "protocols": {
+      "A": {
+        "title": "Protocol A — Navigation",
+        "body": "Clarify direction, align roles, and focus on trajectory.",
+        "focusLabel": "Focus",
+        "focus": "Trajectory and connectedness"
+      },
+      "B": {
+        "title": "Protocol B — Recovery",
+        "body": "Reduce noise and restore energy through rhythms and pauses.",
+        "focusLabel": "Focus",
+        "focus": "Energy and stability"
+      },
+      "C": {
+        "title": "Protocol C — Redesign",
+        "body": "Reassemble contours for resonance and a long horizon.",
+        "focusLabel": "Focus",
+        "focus": "System resonance"
+      }
+    },
+    "trajectory": {
+      "title": "Trajectory Simulator",
+      "subtitle": "Choose a scenario and view the trajectory.",
+      "select": "Select",
+      "chartTitle": "12-month dynamics",
+      "scenarios": {
+        "kpi-any-cost": {
+          "title": "Maximize KPI at any cost",
+          "description": "Sharp KPI rise with declining stability.",
+          "summary": "Short-term growth is achieved at the cost of burnout and falling IT."
+        },
+        "restore-energy": {
+          "title": "Reduce noise and restore energy",
+          "description": "Stabilization via resource recovery.",
+          "summary": "A short-term slowdown supports sustained IT growth."
+        },
+        "redesign-resonance": {
+          "title": "Redesign for contour resonance",
+          "description": "System redesign for a long trajectory.",
+          "summary": "Slower start, stronger coherence gains."
+        }
+      }
+    }
+  },
+  "applications": {
+    "title": "Applications",
+    "subtitle": "One template: problem → gap → protocol → metrics → example.",
+    "labels": {
+      "problem": "Problem",
+      "gap": "Gap",
+      "protocol": "Protocol",
+      "metrics": "Metrics",
+      "example": "Example"
+    },
+    "domains": {
+      "person": {
+        "title": "Individual",
+        "problem": "Loss of direction and energy.",
+        "gap": "Energy and planning horizon.",
+        "protocol": "B → A",
+        "metrics": "E, H, IT",
+        "example": "Reset rhythms and reframe goals."
+      },
+      "team": {
+        "title": "Team",
+        "problem": "Trust gap and tool overload.",
+        "gap": "D and S",
+        "protocol": "A → B",
+        "metrics": "D, S, IT",
+        "example": "Update communication rules and reduce noise."
+      },
+      "product": {
+        "title": "Product",
+        "problem": "Feature growth without meaning.",
+        "gap": "T and R",
+        "protocol": "A → C",
+        "metrics": "T, R, IT",
+        "example": "Clarify value and roadmap coherence."
+      },
+      "education": {
+        "title": "Education",
+        "problem": "Students lose motivation.",
+        "gap": "E and H",
+        "protocol": "B → C",
+        "metrics": "E, H, S",
+        "example": "Low-noise learning formats."
+      },
+      "city": {
+        "title": "City",
+        "problem": "Projects evolve in isolation.",
+        "gap": "D and N",
+        "protocol": "C",
+        "metrics": "D, N, IT",
+        "example": "Sustainable coordination scenarios."
+      }
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Short answers to common questions.",
+    "items": [
+      {
+        "q": "Is this a scientific methodology?",
+        "a": "It is a research framework and a practical prototype."
+      },
+      {
+        "q": "Can these metrics be used to evaluate people?",
+        "a": "No. The metrics are not intended to judge individuals."
+      },
+      {
+        "q": "Why four contours?",
+        "a": "It is the minimal set of fields that creates resonance."
+      },
+      {
+        "q": "What is the IT index?",
+        "a": "An index of contour coherence and noise reduction."
+      },
+      {
+        "q": "What does S (noise) mean?",
+        "a": "Aggregate technological and informational noise."
+      },
+      {
+        "q": "How fast can you see results?",
+        "a": "It depends on system scale, but typically 2–6 weeks for first shifts."
+      },
+      {
+        "q": "Where are the protocols?",
+        "a": "They are presented on the Practice page."
+      },
+      {
+        "q": "Can this be used in business?",
+        "a": "Yes, but only with ethics and transparency."
+      },
+      {
+        "q": "Is there a private section?",
+        "a": "For now, this is an open public prototype."
+      },
+      {
+        "q": "Can this be embedded into a product?",
+        "a": "Yes—this is why protocols and metrics are being developed."
+      }
+    ],
+    "glossary": {
+      "title": "Mini glossary",
+      "items": {
+        "telos": {
+          "term": "Telos",
+          "definition": "Direction and meaning that keeps a system coherent."
+        },
+        "synergy": {
+          "term": "Synergy",
+          "definition": "Coordinated work of elements."
+        },
+        "entropy": {
+          "term": "Entropy",
+          "definition": "Level of chaos and loss of direction."
+        },
+        "resonance": {
+          "term": "Resonance",
+          "definition": "Contour coherence and effect amplification."
+        },
+        "protocol": {
+          "term": "Protocol",
+          "definition": "A practical sequence of actions."
+        },
+        "metric": {
+          "term": "Metric",
+          "definition": "A numerical indicator of state."
+        }
+      }
+    }
+  }
+}
