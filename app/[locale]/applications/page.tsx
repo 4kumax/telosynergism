@@ -8,11 +8,11 @@ import type { Locale } from "@/lib/i18n";
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
   return buildMetadata({
-    locale,
+    locale: locale as Locale,
     namespace: "metadata.applications",
     path: "/applications",
   });
@@ -21,7 +21,7 @@ export async function generateMetadata({
 export default async function ApplicationsPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);

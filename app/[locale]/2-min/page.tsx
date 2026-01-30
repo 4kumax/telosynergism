@@ -8,16 +8,16 @@ import type { Locale } from "@/lib/i18n";
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  return buildMetadata({ locale, namespace: "metadata.twoMin", path: "/2-min" });
+  return buildMetadata({ locale: locale as Locale, namespace: "metadata.twoMin", path: "/2-min" });
 }
 
 export default async function TwoMinPage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);

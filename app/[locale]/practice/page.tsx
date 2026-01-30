@@ -9,16 +9,16 @@ import type { Locale } from "@/lib/i18n";
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  return buildMetadata({ locale, namespace: "metadata.practice", path: "/practice" });
+  return buildMetadata({ locale: locale as Locale, namespace: "metadata.practice", path: "/practice" });
 }
 
 export default async function PracticePage({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
