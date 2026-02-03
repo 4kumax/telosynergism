@@ -48,9 +48,22 @@ export default async function Navbar({ locale }: NavbarProps) {
             <LanguageSwitcher />
           </div>
           <div className="md:hidden">
-            <Button variant="outline" size="sm" asChild>
-              <Link href={`/${locale}/2-min`}>{t("menuCta")}</Link>
-            </Button>
+            <details className="relative">
+              <summary className="list-none">
+                <Button variant="outline" size="sm">{t("menuCta")}</Button>
+              </summary>
+              <div className="absolute right-0 mt-2 w-56 rounded-lg border border-border bg-background p-2 shadow-lg">
+                {links.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-muted hover:text-foreground"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            </details>
           </div>
         </div>
       </div>
