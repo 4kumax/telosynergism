@@ -43,7 +43,7 @@ export default function SVITest({ locale }: { locale: string }) {
           {questionKeys.map((key, index) => (
             <div key={key} className="space-y-2 rounded-lg border border-border p-4">
               <div className="text-sm font-medium">
-                {index + 1}. {t(`questions.${key}`)}
+                {t(`questions.${key}`)}
               </div>
               <div className="grid grid-cols-5 gap-2 text-xs">
                 {[0, 1, 2, 3, 4].map((value) => (
@@ -52,8 +52,8 @@ export default function SVITest({ locale }: { locale: string }) {
                     type="button"
                     onClick={() => setAnswers((prev) => ({ ...prev, [key]: value }))}
                     className={`rounded-md border px-2 py-2 text-center transition ${answers[key] === value
-                        ? "border-primary bg-primary text-primary-foreground"
-                        : "border-border hover:bg-muted"
+                      ? "border-primary bg-primary text-primary-foreground"
+                      : "border-border hover:bg-muted"
                       }`}
                   >
                     {t(`scale.${value}`)}

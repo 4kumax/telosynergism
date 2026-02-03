@@ -5,13 +5,15 @@ export type SVIProfile = Record<SVIKey, number>;
 export function computeSVI(answers: Record<SVIKey, number>): SVIProfile {
   const normalize = (value: number) => Math.round((value / 4) * 100);
 
+  // Все оси позитивные: выше = лучше
+  // S теперь означает "ясность среды" (не "шум")
   return {
     T: normalize(answers.T),
     A: normalize(answers.A),
     E: normalize(answers.E),
     R: normalize(answers.R),
     N: normalize(answers.N),
-    S: 100 - normalize(answers.S),
+    S: normalize(answers.S),
     H: normalize(answers.H),
   };
 }
@@ -38,16 +40,12 @@ export function computeITFromContours(
 
 export function summarizeProfile(profile: SVIProfile) {
   const keys = Object.keys(profile) as SVIKey[];
-  const effective = keys.map((key) => {
-    const value = profile[key];
-    const normalized = key === "S" ? 100 - value : value;
-    return { key, normalized };
-  });
 
-  const gaps = [...effective]
-    .sort((a, b) => a.normalized - b.normalized)
-    .slice(0, 2)
-    .map((item) => item.key);
+  // Все оси 0..100, выше = лучше (включая S, потому что вопрос позитивный)
+  // gaps = два минимальных значения = слабые места
+  const gaps = [...keys]
+    .sort((a, b) => profile[a] - profile[b])
+    .slice(0, 2);
 
   let nextStepsKey: "A" | "B" | "C" = "C";
   if (gaps.includes("E") || gaps.includes("N")) {

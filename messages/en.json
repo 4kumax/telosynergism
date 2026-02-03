@@ -4,7 +4,7 @@
     "twoMin": "Understand in 2 minutes",
     "manifest": "Manifesto",
     "model": "4 contours",
-    "metrics": "SVI & IT",
+    "metrics": "SVI & IndexT",
     "practice": "Protocols",
     "applications": "Applications",
     "faq": "FAQ",
@@ -20,7 +20,7 @@
     "subtitle": "Public prototype: theory, practice, and demo metrics.",
     "links": {
       "manifest": "Manifesto",
-      "metrics": "SVI & IT",
+      "metrics": "SVI & IndexT",
       "practice": "Protocols",
       "applications": "Applications",
       "leaderManifest": "Leader Manifesto"
@@ -31,7 +31,7 @@
   "metadata": {
     "home": {
       "title": "Telosynergism — vector, not chaos ",
-      "description": "Manifesto, protocols, and demo SVI/IT metrics for observable resonance."
+      "description": "Manifesto, protocols, and demo SVI/IndexTmetrics for observable resonance."
     },
     "twoMin": {
       "title": "Telosynergism in 2 minutes",
@@ -46,8 +46,8 @@
       "description": "The contour model, patterns, and the resonance simulator."
     },
     "metrics": {
-      "title": "SVI & IT — demo metrics",
-      "description": "SVI test, IT vs Volume, and an observability approach."
+      "title": "SVI & IndexT — demo metrics",
+      "description": "SVI test, IndexT vs Volume, and an observability approach."
     },
     "practice": {
       "title": "Protocols and trajectories",
@@ -77,7 +77,7 @@
     },
     "heroCard": {
       "title": "What we do",
-      "body": "We define 4 contours and observe their coherence via SVI/IT. We provide protocols for restoring resonance and reducing entropy.",
+      "body": "We define 4 contours and observe their coherence via SVI/IndexT. We provide protocols for restoring resonance and reducing entropy.",
       "callout": "This is a demo intended for navigation and collaborative design."
     },
     "problems": [
@@ -120,8 +120,8 @@
       "body": "We treat meaning as system infrastructure, not an abstract slogan. Meaning sets the vector; protocols sustain movement."
     },
     "svi": {
-      "title": "SVI & IT",
-      "body": "SVI is a seven-component stability profile. IT is an index of coherence and resonance. Together they form an observable compass.",
+      "title": "SVI & IndexT",
+      "body": "SVI is a seven-component stability profile. IndexT is an index of coherence and resonance. Together they form an observable compass.",
       "cta": "About the metrics"
     },
     "applications": {
@@ -227,8 +227,8 @@
         "body": "Technology must serve telos, not destroy it. Addictive algorithms and manipulation systems are unacceptable. Supported: telos-oriented AI assistants, health/education/development systems, and technologies that amplify the human."
       },
       {
-        "title": "14. What is the Telos-Synergy Index (IT)?",
-        "body": "IT is the main indicator of directionality. It shows whether contour vectors align, whether they amplify each other, where a system is going, what is breaking, and what is growing. In the future, countries will compete by IT the way they compete by GDP today."
+        "title": "14. What is the Telos-Synergy Index (IndexT)?",
+        "body": "IT is the main indicator of directionality. It shows whether contour vectors align, whether they amplify each other, where a system is going, what is breaking, and what is growing. In the future, countries will compete by IndexT the way they compete by GDP today."
       },
       {
         "title": "15. What does Telosynergism require from the individual?",
@@ -375,7 +375,7 @@
     }
   },
   "metrics": {
-    "title": "SVI & IT",
+    "title": "SVI & IndexT",
     "subtitle": "Demo metrics for observable resonance.",
     "svi": {
       "title": "SVI profile",
@@ -386,7 +386,7 @@
       ]
     },
     "it": {
-      "title": "IT index",
+      "title": "IndexTindex",
       "items": [
         "Contour coherence.",
         "Synergy at the minimum level.",
@@ -395,7 +395,7 @@
     },
     "sviTestTitle": "SVI test in 90 seconds",
     "sviTestSubtitle": "Rate 7 statements—get a profile and recommendations.",
-    "itVsVolumeTitle": "IT vs Volume",
+    "itVsVolumeTitle": "IndexTvs Volume",
     "itVsVolumeSubtitle": "Compare activity volume and directionality.",
     "disclaimerTitle": "Disclaimer",
     "disclaimer": "Results are exploratory and meant for navigation.",
@@ -417,17 +417,17 @@
         "E": "Energy",
         "R": "Relatedness",
         "N": "Nature",
-        "S": "Noise",
+        "S": "Clarity",
         "H": "Horizon"
       },
       "questions": {
-        "T": "I understand the direction and can explain it to others.",
-        "A": "I can influence decisions and practices.",
-        "E": "I have a stable resource of energy and attention.",
-        "R": "There is trust and connectedness between participants.",
-        "N": "Decisions consider ecological sustainability.",
-        "S": "The tech environment is clear and not overloaded.",
-        "H": "We plan beyond the next quarter."
+        "T": "T — I understand the direction and can explain it to others.",
+        "A": "A — I can influence decisions and practices.",
+        "E": "E — I have a stable resource of energy and attention.",
+        "R": "R — There is trust and connectedness between participants.",
+        "N": "N — Decisions consider ecological sustainability.",
+        "S": "S — The tech environment is clear and not overloaded.",
+        "H": "H — We plan beyond the next quarter."
       },
       "scale": {
         "0": "0",
@@ -438,7 +438,7 @@
       }
     },
     "itVsVolume": {
-      "title": "IT vs Volume",
+      "title": "IndexTvs Volume",
       "tabs": {
         "person": "Individual",
         "team": "Team",
@@ -469,7 +469,7 @@
         }
       },
       "interpretations": {
-        "person": "Personal volume can rise, but without direction IT falls.",
+        "person": "Personal volume can rise, but without direction IndexT falls.",
         "team": "A team becomes stable only when contours are synchronized.",
         "city": "City scale requires noise reduction—otherwise coordination breaks."
       }
@@ -507,12 +507,12 @@
         "kpi-any-cost": {
           "title": "Maximize KPI at any cost",
           "description": "Sharp KPI rise with declining stability.",
-          "summary": "Short-term growth is achieved at the cost of burnout and falling IT."
+          "summary": "Short-term growth is achieved at the cost of burnout and falling IndexT."
         },
         "restore-energy": {
           "title": "Reduce noise and restore energy",
           "description": "Stabilization via resource recovery.",
-          "summary": "A short-term slowdown supports sustained IT growth."
+          "summary": "A short-term slowdown supports sustained IndexT growth."
         },
         "redesign-resonance": {
           "title": "Redesign for contour resonance",
@@ -538,7 +538,7 @@
         "problem": "Loss of direction and energy.",
         "gap": "Energy and planning horizon.",
         "protocol": "B → A",
-        "metrics": "E, H, IT",
+        "metrics": "E, H, IndexT",
         "example": "Reset rhythms and reframe goals."
       },
       "team": {
@@ -546,7 +546,7 @@
         "problem": "Trust gap and tool overload.",
         "gap": "D and S",
         "protocol": "A → B",
-        "metrics": "D, S, IT",
+        "metrics": "D, S, IndexT",
         "example": "Update communication rules and reduce noise."
       },
       "product": {
@@ -554,7 +554,7 @@
         "problem": "Feature growth without meaning.",
         "gap": "T and R",
         "protocol": "A → C",
-        "metrics": "T, R, IT",
+        "metrics": "T, R, IndexT",
         "example": "Clarify value and roadmap coherence."
       },
       "education": {
@@ -570,7 +570,7 @@
         "problem": "Projects evolve in isolation.",
         "gap": "D and N",
         "protocol": "C",
-        "metrics": "D, N, IT",
+        "metrics": "D, N, IndexT",
         "example": "Sustainable coordination scenarios."
       }
     }
@@ -592,7 +592,7 @@
         "a": "It is the minimal set of fields that creates resonance."
       },
       {
-        "q": "What is the IT index?",
+        "q": "What is the IndexT index?",
         "a": "An index of contour coherence and noise reduction."
       },
       {
