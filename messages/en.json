@@ -8,7 +8,8 @@
     "practice": "Protocols",
     "applications": "Applications",
     "faq": "FAQ",
-    "menuCta": "Menu"
+    "menuCta": "Menu",
+    "leaderManifest": "Leader Manifesto"
   },
   "theme": {
     "light": "Light",
@@ -21,7 +22,8 @@
       "manifest": "Manifesto",
       "metrics": "SVI & IT",
       "practice": "Protocols",
-      "applications": "Applications"
+      "applications": "Applications",
+      "leaderManifest": "Leader Manifesto"
     },
     "disclaimer": "Metrics and simulators are demo prototypes, not psychological diagnostics and not medical advice.",
     "copyright": "© 2026 Telosynergism. All rights reserved."
@@ -58,6 +60,10 @@
     "faq": {
       "title": "FAQ and glossary",
       "description": "Key answers and core terminology."
+    },
+    "leaderManifest": {
+      "title": "The Telos-Leader Manifesto",
+      "description": "A telos-leader’s code: hold direction, reduce entropy, and lead systems toward resonance."
     }
   },
   "home": {
@@ -158,6 +164,7 @@
       "title": "Join / partnerships",
       "body": "Open to research, pilots, and co-development.",
       "button": "Contact us",
+      "contactName": "Max Kuznetsoff",
       "dialogTitle": "Get in touch",
       "dialogBody": "Tell us about your project or challenge—we’ll propose a collaboration format."
     }
@@ -252,33 +259,42 @@
   },
   "manifest": {
     "title": "The Telosynergism Manifesto",
-    "subtitle": "We build a system where meaning, observability, and ethics are connected.",
+    "subtitle": "Vector, not chaos. Meaning as infrastructure. Resonance over random growth.",
     "principles": {
-      "title": "Principles",
+      "title": "12 lines",
       "items": [
-        "Meaning sets the vector; metrics support movement.",
-        "Resonance matters more than chaotic growth.",
-        "Noise reduction is a foundational practice.",
-        "The system matters more than local wins.",
-        "Ethics and transparency are mandatory."
+        "1) Meaning is infrastructure. Without it, every system collapses into noise.",
+        "2) We choose direction, not just speed. Volume without a vector becomes entropy.",
+        "3) Resonance beats “wins at any cost.” Coherence outperforms heroics.",
+        "4) Signal clarity matters more than message count. Reduce noise before you “scale.”",
+        "5) Systems beat local victories. A decision is good if it survives replication.",
+        "6) Telos is the center—not a person, not a tribe, not a brand, not a tool.",
+        "7) Technology is an amplifier, not a master. Algorithms must not hijack attention.",
+        "8) Trust is future capital. No trust—no long trajectory.",
+        "9) Nature isn’t a backdrop; it’s a survival contour. Ecological debt always comes due.",
+        "10) Observability is mandatory: we measure coherence, not people. Metrics are a compass, not a whip.",
+        "11) Ethics isn’t a “later” chapter. Consent and transparency are default settings.",
+        "12) Long horizon is the standard. We design for 10–100 years, not the next quarter."
       ]
     },
     "not": {
-      "title": "What this is not",
+      "title": "Boundaries",
       "items": [
-        "Not psychological diagnostics.",
-        "Not a religion or an exclusion ideology.",
-        "Not a control instrument.",
-        "Not anti-technology—rather, working with its noise."
+        "Not psychological diagnostics. Not medical advice.",
+        "Not a religion. Not an exclusion ideology—telos doesn’t need an enemy.",
+        "Not a control system or a ranking tool for humans.",
+        "Not anti-tech and not techno-worship: we design tech around telos.",
+        "Not an excuse for success at the cost of burnout, trust, or nature."
       ]
     },
     "ethics": {
-      "title": "Ethics",
+      "title": "Ethical commitments",
       "items": [
-        "Voluntary participation.",
-        "Transparency of formulas and decisions.",
-        "Safety of data and people.",
-        "Accountability for consequences."
+        "Consent: you can opt out without explanation.",
+        "Transparency: formulas, assumptions, and limits are visible and plain-language.",
+        "Safety: minimal data, no hidden tracking, strong protection against leakage.",
+        "Non-violence: metrics are not used for punishment or discrimination.",
+        "Accountability: if you deploy it, you own the consequences—social, technical, environmental."
       ]
     }
   },
@@ -632,6 +648,45 @@
           "definition": "A numerical indicator of state."
         }
       }
+    }
+  },
+  "leaderManifest": {
+    "title": "The Telos-Leader Manifesto",
+    "subtitle": "A code for the person who leads others toward meaning.",
+    "principles": {
+      "title": "Preamble",
+      "items": [
+        "I carry the vector.\nI design trajectories.\nI carry meaning through chaos.",
+        "My job is not to control people or micromanage processes.\nMy job is to hold direction—toward telos.",
+        "I accept this manifesto as the core of my service."
+      ]
+    },
+    "not": {
+      "title": "What a telos-leader is not",
+      "items": [
+        "Not a boss who leads by fear.",
+        "Not a celebrity who feeds on attention.",
+        "Not a manipulator who replaces people’s telos with personal goals.",
+        "Not a hostage to tools, KPIs, or rituals.",
+        "Not a builder of short-term wins at the expense of trust, people, or nature."
+      ]
+    },
+    "ethics": {
+      "title": "The 12-point code",
+      "items": [
+        "1. I don’t lead to myself—I lead to telos. Telos is the center. I create orientation, not dependency.",
+        "2. I create a field of meaning. Meaning beats noise. Clarity beats chaos. Accountability beats excuses.",
+        "3. I work with trajectory, not behavior. I change conditions and direction—not people’s dignity.",
+        "4. I reduce entropy. I don’t multiply noise or steal attention. I simplify, clarify, and structure.",
+        "5. I’m responsible for a clean vector. I strip ego and carry clarity by example.",
+        "6. I grow people along their own vectors. I amplify their telos—I don’t use them as resources.",
+        "7. I integrate the four contours: human, society, technology, nature. Resonance beats quick payoff.",
+        "8. I think long-term. I choose decisions that survive time and scale.",
+        "9. I protect other people’s telos. Meaning boundaries are inviolable.",
+        "10. I govern technology. AI is an amplifier. Algorithms serve telos—they don’t replace it.",
+        "11. I restore direction for those who lost it. Not with pressure—by clarity, orientation, and presence.",
+        "12. I live my highest trajectory. I don’t perform leadership—I act by telos."
+      ]
     }
   }
 }

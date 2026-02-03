@@ -191,9 +191,12 @@ export default async function LandingPage({
                     <DialogTitle>{t("ctaSection.dialogTitle")}</DialogTitle>
                     <DialogDescription>{t("ctaSection.dialogBody")}</DialogDescription>
                   </DialogHeader>
+                  <div className="text-sm text-muted-foreground">
+                    {t("ctaSection.contactName")}
+                  </div>
                   <Button asChild>
-                    <Link href="mailto:hello@telosynergism.com">
-                      hello@telosynergism.com
+                    <Link href="mailto:5726219@gmail.com">
+                      5726219@gmail.com
                     </Link>
                   </Button>
                 </DialogContent>

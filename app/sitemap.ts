@@ -5,6 +5,7 @@ const routes = [
   "",
   "/2-min",
   "/manifest",
+  "/leader-manifest",
   "/model",
   "/metrics",
   "/practice",

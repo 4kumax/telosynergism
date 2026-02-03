@@ -20,6 +20,9 @@ export default async function Footer({ locale }: FooterProps) {
           <Link href={`/${locale}/manifest`} className="hover:text-foreground">
             {t("links.manifest")}
           </Link>
+          <Link href={`/${locale}/leader-manifest`} className="hover:text-foreground">
+            {t("links.leaderManifest")}
+          </Link>
           <Link href={`/${locale}/metrics`} className="hover:text-foreground">
             {t("links.metrics")}
           </Link>

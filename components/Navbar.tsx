@@ -17,6 +17,7 @@ export default async function Navbar({ locale }: NavbarProps) {
     { href: `/${locale}`, label: t("home") },
     { href: `/${locale}/2-min`, label: t("twoMin") },
     { href: `/${locale}/manifest`, label: t("manifest") },
+    { href: `/${locale}/leader-manifest`, label: t("leaderManifest") },
     { href: `/${locale}/model`, label: t("model") },
     { href: `/${locale}/metrics`, label: t("metrics") },
     { href: `/${locale}/practice`, label: t("practice") },

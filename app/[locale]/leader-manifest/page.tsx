@@ -11,18 +11,23 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  return buildMetadata({ locale: locale as Locale, namespace: "metadata.manifest", path: "/manifest" });
+  return buildMetadata({
+    locale: locale as Locale,
+    namespace: "metadata.leaderManifest",
+    path: "/leader-manifest",
+  });
 }
 
-export default async function ManifestPage({
+export default async function LeaderManifestPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: "manifest" });
-  const principles = t.raw("principles.items") as string[];
+  const t = await getTranslations({ locale, namespace: "leaderManifest" });
+
+  const preamble = t.raw("principles.items") as string[];
   const notItems = t.raw("not.items") as string[];
   const ethicsItems = t.raw("ethics.items") as string[];
 
@@ -34,20 +39,21 @@ export default async function ManifestPage({
       </Section>
 
       <Section>
-        <Card>
-          <CardHeader>
-            <CardTitle>{t("principles.title")}</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-2 text-sm text-muted-foreground">
-            {principles.map((item, index) => (
-              <div key={index}>• {item}</div>
-            ))}
-          </CardContent>
-        </Card>
-      </Section>
-
-      <Section>
         <div className="grid gap-6 md:grid-cols-2">
+          <Card>
+            <CardHeader>
+              <CardTitle>{t("principles.title")}</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-3 text-sm text-muted-foreground">
+              {preamble.map((item, index) => (
+                <div key={index}>
+                  {item.split("\n").map((line, lineIndex) => (
+                    <div key={lineIndex}>{line}</div>
+                  ))}
+                </div>
+              ))}
+            </CardContent>
+          </Card>
           <Card>
             <CardHeader>
               <CardTitle>{t("not.title")}</CardTitle>
@@ -58,17 +64,20 @@ export default async function ManifestPage({
               ))}
             </CardContent>
           </Card>
-          <Card>
-            <CardHeader>
-              <CardTitle>{t("ethics.title")}</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-2 text-sm text-muted-foreground">
-              {ethicsItems.map((item, index) => (
-                <div key={index}>• {item}</div>
-              ))}
-            </CardContent>
-          </Card>
         </div>
+      </Section>
+
+      <Section>
+        <Card>
+          <CardHeader>
+            <CardTitle>{t("ethics.title")}</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-2 text-sm text-muted-foreground">
+            {ethicsItems.map((item, index) => (
+              <div key={index}>{item}</div>
+            ))}
+          </CardContent>
+        </Card>
       </Section>
     </>
   );
